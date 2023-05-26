@@ -35,7 +35,7 @@ Page {
             }
             MenuItem {
                 text: main.hideUnused ? qsTr("Show unused items") : qsTr("Hide unused items")
-                visible: main.rawModel.count > 0
+                visible: main.rawModel.count > 0 && main.dataModel.get(0)['batchDate'] == main.todayBatchDate
                 onClicked: main.hideUnused = !main.hideUnused
             }
             MenuItem {
