@@ -250,7 +250,7 @@ Page {
                 id: btnOutPlus
                 anchors.left: parent.left
                 width: outerButtonWidth
-                fadeDirection: OpacityRamp.LeftToRight
+                iconPosition: Qt.LeftToRight
                 iconSource: "image://theme/icon-m-add"
                 onPressAndHold: item.openMenu()
 
@@ -265,7 +265,7 @@ Page {
                 enabled: item.out > 0
                 anchors.left: btnOutPlus.right
                 width: innerButtonWidth
-                fadeDirection: OpacityRamp.RightToLeft
+                iconPosition: Qt.RightToLeft
                 iconSource: "image://theme/icon-m-remove"
                 onPressAndHold: item.openMenu()
 
@@ -280,7 +280,7 @@ Page {
                 enabled: item.fetched > 0
                 anchors.right: btnInPlus.left
                 width: innerButtonWidth
-                fadeDirection: OpacityRamp.LeftToRight
+                iconPosition: Qt.LeftToRight
                 iconSource: "image://theme/icon-m-remove"
                 onPressAndHold: item.openMenu()
 
@@ -295,7 +295,7 @@ Page {
                 enabled: item.fetched + 1 <= item.out
                 anchors.right: parent.right
                 width: outerButtonWidth
-                fadeDirection: OpacityRamp.RightToLeft
+                iconPosition: Qt.RightToLeft
                 iconSource: "image://theme/icon-m-add"
                 onPressAndHold: item.openMenu()
 

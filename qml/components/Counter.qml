@@ -13,7 +13,7 @@ SilicaControl {
     width: icon.width
     highlighted: button.highlighted
 
-    property alias fadeDirection: fade.direction
+    property int iconPosition
     property alias iconSource: icon.source
     property bool forceHighlight: false
 
@@ -27,53 +27,35 @@ SilicaControl {
 
         onPressAndHold: root.pressAndHold(mouse)
         onClicked: root.clicked(mouse)
-
-        HighlightImage {
-            id: icon
-            source: "image://theme/icon-m-add"
-            opacity: button.highlighted ? 1.0 : 0.0
-            anchors {
-                verticalCenter: parent.verticalCenter
-                left: parent.left
-                leftMargin: Theme.paddingMedium
-                rightMargin: Theme.paddingMedium
-            }
-
-            states: [
-                State {
-                    when: fadeDirection == OpacityRamp.LeftToRight
-                    AnchorChanges {
-                        target: icon
-                        anchors.left: parent.left
-                        anchors.right: undefined
-                    }
-                },
-                State {
-                    when: fadeDirection == OpacityRamp.RightToLeft
-                    AnchorChanges {
-                        target: icon
-                        anchors.left: undefined
-                        anchors.right: parent.right
-                    }
-                },
-                State {
-                    when: fadeDirection == OpacityRamp.BothSides
-                    AnchorChanges {
-                        target: icon
-                        anchors.left: undefined
-                        anchors.right: undefined
-                        anchors.horizontalCenter: parent.horizontalCenter
-                    }
-                }
-            ]
-        }
     }
 
-    OpacityRampEffect {
-        id: fade
-        sourceItem: button
-        direction: OpacityRamp.LeftToRight
-        slope: 1.0
-        offset: 0.3
+    HighlightImage {
+        id: icon
+        source: "image://theme/icon-m-add"
+        opacity: button.highlighted ? 1.0 : 0.0
+        anchors {
+            verticalCenter: parent.verticalCenter
+            leftMargin: Theme.paddingMedium
+            rightMargin: Theme.paddingMedium
+        }
+
+        states: [
+            State {
+                when: iconPosition == Qt.LeftToRight
+                AnchorChanges {
+                    target: icon
+                    anchors.left: parent.left
+                    anchors.right: undefined
+                }
+            },
+            State {
+                when: iconPosition == Qt.RightToLeft
+                AnchorChanges {
+                    target: icon
+                    anchors.left: undefined
+                    anchors.right: parent.right
+                }
+            }
+        ]
     }
 }
