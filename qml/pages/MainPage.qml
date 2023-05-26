@@ -29,6 +29,8 @@ Page {
         VerticalScrollDecorator { flickable: listView }
 
         PullDownMenu {
+            flickable: listView
+
             MenuItem {
                 text: qsTr("About")
                 onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
@@ -56,6 +58,27 @@ Page {
                 onDelayedClick: {
                     main.addNewBatch()
                     main.hideUnused = false
+                }
+            }
+        }
+
+        PushUpMenu {
+            flickable: listView
+            enabled: visible
+            visible: main.rawModel.count > 0
+
+            // TODO find a way to enable the menu only if there actually are
+            //      old entries; below method doesn't work because adding a new
+            //      batch will add it at the and of the model
+            // visible: main.rawModel.count > 0 &&
+            //          main.rawModel.get(main.rawModel.count - 1)['batchDate'] !== main.todayBatchDate
+
+            MenuItem {
+                text: main.hideOld ? qsTr("Show archived entries") : qsTr("Hide archived entries")
+                onClicked: {
+                    listView.scrollToTop()
+                    main.hideOld = !main.hideOld
+                    listView.scrollToTop()
                 }
             }
         }
@@ -94,6 +117,11 @@ Page {
                     }
                 }
             }
+        }
+
+        footer: Item {
+            width: parent.width
+            height: Theme.horizontalPageMargin
         }
 
         ViewPlaceholder {

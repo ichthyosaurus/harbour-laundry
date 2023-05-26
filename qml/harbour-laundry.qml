@@ -20,6 +20,8 @@ ApplicationWindow {
     readonly property string currentFilter: _sortedModel.currentFilter
 
     property bool hideUnused: false
+    property bool hideOld: true
+
     property var currentFilterRegex: new RegExp('', 'i')
     onCurrentFilterChanged: {
         var search = currentFilter.replace(/([-.[\](){}\\*?*^$|])/g, "\\$1")
@@ -67,6 +69,13 @@ ApplicationWindow {
             ExpressionFilter {
                 enabled: hideUnused
                 expression: model.out === 0 && model.fetched === 0
+                inverted: true
+            },
+            ExpressionFilter {
+                enabled: hideOld
+                expression: model.batchDate !== todayBatchDate &&
+                            model.out === model.fetched &&
+                            !model.missing
                 inverted: true
             },
             AnyOf {
