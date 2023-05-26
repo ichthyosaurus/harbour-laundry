@@ -1,0 +1,6 @@
+# This file is part of harbour-laundry.
+# SPDX-FileCopyrightText: 2022 Mirian Margiani
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# Use target-compatible line endings as the safe default for cross compilation.
+* text=auto eol=lf

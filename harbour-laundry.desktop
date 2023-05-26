@@ -1,0 +1,22 @@
+# This file is part of harbour-laundry.
+# SPDX-FileCopyrightText: 2019-2023 Mirian Margiani
+# SPDX-License-Identifier: GPL-3.0-or-later
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=harbour-laundry
+Exec=harbour-laundry
+Name=Laundry List
+
+# TRANSLATORS
+# Please add a new line for your locale below, and translate the name. This is
+# the name shown in the launcher menu. The name has to be short enough not to be
+# abbreviated by the system. As a rule-of-thumb, around 15 Latin characters
+# should be the limit. If your language uses a different script than Latin,
+# please test it before submitting your translation.
+Name[de]=Wäscheliste
+
+[X-Sailjail]
+Permissions=Base
+OrganizationName=harbour-laundry
+ApplicationName=harbour-laundry

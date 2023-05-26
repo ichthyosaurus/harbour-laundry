@@ -1,0 +1,40 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: harbour-laundry
+Upstream-Contact: Mirian Margiani <mixosaurus+ichthyo@pm.me>
+Source: https://github.com/ichthyosaurus/harbour-laundry
+
+Files: translations/*
+Copyright: 2023 harbour-laundry translations contributors
+License: GPL-3.0-or-later
+
+Files: libs/opal-translations/opal-about/*
+Copyright: 2020-2023 opal-about contributors
+License: GPL-3.0-or-later
+
+Files: libs/opal-docs/*.qch
+Copyright: 2020-2023 opal contributors
+License: GPL-3.0-or-later
+
+Files: libs/module_opal-*.txt
+Copyright: 2020-2023 opal contributors
+License: GPL-3.0-or-later
+
+Files: rpm/harbour-laundry.spec
+Copyright: harbour-laundry contributors
+License: GPL-3.0-or-later
+Comment: This file is generated from [this file's name].yaml and shares copyright with it.
+
+Files: icons/* qml/images/*
+Copyright: Mirian Margiani
+License: CC-BY-SA-4.0
+Comment: These files are generated from the sources at icon-src/*.
+
+Files: icon-src/*
+Copyright: Mirian Margiani
+License: CC-BY-SA-4.0
+Comment: These files contain proper Dublin Core licensing metadata.
+
+Files: .gitmodules libs/SortFilterProxyModel.patch
+Copyright: Mirian Margiani
+License: CC0-1.0
+Comment: These files are part of harbour-laundry and have been released into the public domain.
