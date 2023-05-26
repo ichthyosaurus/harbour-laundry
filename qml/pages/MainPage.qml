@@ -204,8 +204,8 @@ Page {
                     font.pixelSize: Theme.fontSizeExtraLarge
                     width: Math.max(implicitWidth, metrics.width)
                     opacity: {
-                        if (btnOutPlus.highlighted) 0.0
-                        else if (btnOutMinus.highlighted ||
+                        /*if (btnOutPlus.highlighted) 0.0
+                        else */if (btnOutMinus.highlighted ||
                                  item.fetched >= item.out) Theme.opacityLow
                         else 1.0
                     }
@@ -237,8 +237,8 @@ Page {
                     width: Math.max(implicitWidth, metrics.width)
 
                     opacity: {
-                        if (btnInPlus.highlighted) 0.0
-                        else if (btnInMinus.highlighted ||
+                        /*if (btnInPlus.highlighted) 0.0
+                        else */if (btnInMinus.highlighted ||
                                  item.out == 0 ||
                                  item.fetched >= item.out) Theme.opacityLow
                         else 1.0
@@ -250,7 +250,6 @@ Page {
                 id: btnOutPlus
                 anchors.left: parent.left
                 width: outerButtonWidth
-                iconPosition: Qt.LeftToRight
                 iconSource: "image://theme/icon-m-add"
                 onPressAndHold: item.openMenu()
 
@@ -265,7 +264,6 @@ Page {
                 enabled: item.out > 0
                 anchors.left: btnOutPlus.right
                 width: innerButtonWidth
-                iconPosition: Qt.RightToLeft
                 iconSource: "image://theme/icon-m-remove"
                 onPressAndHold: item.openMenu()
 
@@ -280,7 +278,6 @@ Page {
                 enabled: item.fetched > 0
                 anchors.right: btnInPlus.left
                 width: innerButtonWidth
-                iconPosition: Qt.LeftToRight
                 iconSource: "image://theme/icon-m-remove"
                 onPressAndHold: item.openMenu()
 
@@ -295,7 +292,6 @@ Page {
                 enabled: item.fetched + 1 <= item.out
                 anchors.right: parent.right
                 width: outerButtonWidth
-                iconPosition: Qt.RightToLeft
                 iconSource: "image://theme/icon-m-add"
                 onPressAndHold: item.openMenu()
 

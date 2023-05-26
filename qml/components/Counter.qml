@@ -13,7 +13,6 @@ SilicaControl {
     width: icon.width
     highlighted: button.highlighted
 
-    property int iconPosition
     property alias iconSource: icon.source
     property bool forceHighlight: false
 
@@ -24,6 +23,8 @@ SilicaControl {
         id: button
         anchors.fill: parent
         highlighted: root.forceHighlight || down
+        contentItem.anchors.bottom: button.bottom
+        contentHeight: 2 * parent.height
 
         onPressAndHold: root.pressAndHold(mouse)
         onClicked: root.clicked(mouse)
@@ -34,28 +35,9 @@ SilicaControl {
         source: "image://theme/icon-m-add"
         opacity: button.highlighted ? 1.0 : 0.0
         anchors {
-            verticalCenter: parent.verticalCenter
-            leftMargin: Theme.paddingMedium
-            rightMargin: Theme.paddingMedium
+            horizontalCenter: parent.horizontalCenter
+            bottom: parent.top
+            bottomMargin: Theme.paddingMedium
         }
-
-        states: [
-            State {
-                when: iconPosition == Qt.LeftToRight
-                AnchorChanges {
-                    target: icon
-                    anchors.left: parent.left
-                    anchors.right: undefined
-                }
-            },
-            State {
-                when: iconPosition == Qt.RightToLeft
-                AnchorChanges {
-                    target: icon
-                    anchors.left: undefined
-                    anchors.right: parent.right
-                }
-            }
-        ]
     }
 }
