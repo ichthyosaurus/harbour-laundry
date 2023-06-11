@@ -25,6 +25,7 @@ A.AboutPageBase {
     // translationsUrl: "https://github.com/ichthyosaurus/harbour-laundry"  // TODO move to Weblate
 
     licenses: A.License { spdxId: "GPL-3.0-or-later" }
+    changelogList: Qt.resolvedUrl("../Changelog.qml")
 
     attributions: [
         A.Attribution {

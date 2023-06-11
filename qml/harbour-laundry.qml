@@ -9,6 +9,7 @@ import Sailfish.Silica 1.0
 import SortFilterProxyModel 0.2
 import io.thp.pyotherside 1.5
 import "pages"
+import "modules/Opal/About" as A
 
 ApplicationWindow {
     id: main
@@ -35,6 +36,10 @@ ApplicationWindow {
     initialPage: Component { MainPage { } }
     cover: Qt.resolvedUrl("cover/CoverPage.qml")
     allowedOrientations: defaultAllowedOrientations
+
+    A.ChangelogNews {
+        changelogList: Qt.resolvedUrl("Changelog.qml")
+    }
 
     ListModel {
         id: _sourceModel
