@@ -178,6 +178,15 @@ Page {
             _backgroundColor: 'transparent'
 
             menu: ContextMenu {
+                Row {
+                    height: Theme.itemSizeMedium
+                    width: parent.width
+
+                    MenuCounter { relatedCounter: btnOutPlus }
+                    MenuCounter { relatedCounter: btnOutMinus }
+                    MenuCounter { relatedCounter: btnInMinus }
+                    MenuCounter { relatedCounter: btnInPlus }
+                }
                 MenuItem {
                     text: missing ? qsTr("Found!") : qsTr("Missing!")
                     onDelayedClick: {

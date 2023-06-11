@@ -15,6 +15,8 @@ SilicaControl {
 
     property alias iconSource: icon.source
     property bool forceHighlight: false
+    property int bottomMargin: Theme.paddingMedium +
+                               (root.forceHighlight ? 0 : root.height)
 
     signal pressAndHold(var mouse)
     signal clicked(var mouse)
@@ -24,7 +26,8 @@ SilicaControl {
         anchors.fill: parent
         highlighted: root.forceHighlight || down
         contentItem.anchors.bottom: button.bottom
-        contentHeight: 2 * parent.height
+        contentHeight: root.forceHighlight
+                       ? root.height : 2 * root.height
 
         onPressAndHold: root.pressAndHold(mouse)
         onClicked: root.clicked(mouse)
@@ -36,8 +39,8 @@ SilicaControl {
         opacity: button.highlighted ? 1.0 : 0.0
         anchors {
             horizontalCenter: parent.horizontalCenter
-            bottom: parent.top
-            bottomMargin: Theme.paddingMedium
+            bottom: button.bottom
+            bottomMargin: root.bottomMargin
         }
     }
 }
