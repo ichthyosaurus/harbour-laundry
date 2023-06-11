@@ -141,11 +141,11 @@ ApplicationWindow {
                 todayBatchDate = result
             })
 
-            importModule('laundry', function () {
+            importModule('laundry', function() {
                 py.call('laundry.get_items', [StandardPaths.data], function(result) {
                     loading = false
-                });
-            });
+                })
+            })
         }
     }
 
