@@ -149,7 +149,7 @@ Page {
 
             BusyIndicator {
                 anchors.centerIn: parent
-                running: true
+                running: parent.enabled
                 size: BusyIndicatorSize.Large
             }
         }
