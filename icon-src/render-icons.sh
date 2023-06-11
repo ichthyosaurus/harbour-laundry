@@ -11,7 +11,7 @@
 #
 c__FOR_RENDER_LIB__="0.3.0"
 
-# Run this script from the same laundry where your icon sources are located,
+# Run this script from the same directory where your icon sources are located,
 # e.g. <app>/icon-src.
 source ../libs/opal-render-icons.sh
 cFORCE=false
