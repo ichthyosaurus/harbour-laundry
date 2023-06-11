@@ -20,3 +20,7 @@ Name[de]=Wäscheliste
 Permissions=
 OrganizationName=harbour-laundry
 ApplicationName=harbour-laundry
+
+[X-HarbourBackup]
+BackupPathList=.local/share/harbour-laundry/
+BackupConfigList=/apps/harbour-laundry/
