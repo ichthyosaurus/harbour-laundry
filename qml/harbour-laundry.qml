@@ -126,7 +126,7 @@ ApplicationWindow {
                     _sourceModel.append(result[i]);
                 }
 
-                print("adding", result.length, "item(s) to the list")
+                console.log("adding", result.length, "item(s) to the list")
             })
 
             setHandler('default-items', function(result){
