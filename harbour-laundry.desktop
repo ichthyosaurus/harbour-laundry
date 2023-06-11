@@ -17,6 +17,6 @@ Name=Laundry List
 Name[de]=Wäscheliste
 
 [X-Sailjail]
-Permissions=Base
+Permissions=
 OrganizationName=harbour-laundry
 ApplicationName=harbour-laundry
