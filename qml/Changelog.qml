@@ -1,3 +1,9 @@
+/*
+ * This file is part of harbour-laundry.
+ * SPDX-FileCopyrightText: 2023 Mirian Margiani
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
 import "modules/Opal/About"
 
 ChangelogList {
