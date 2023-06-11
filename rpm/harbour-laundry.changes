@@ -6,5 +6,12 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Mon Jun 12 2023 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.0.1-1
+- fixed sailjail permissions
+- added support for MyBackup
+- added an in-app changelog
+- improved counter buttons to be more discoverable
+- updated translations
+
 * Fri May 26 2023 Mirian Margiani <mixosaurus+ichthyo@pm.me> 1.0.0-1
 - initial release
