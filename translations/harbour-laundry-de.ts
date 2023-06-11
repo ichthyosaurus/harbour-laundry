@@ -9,32 +9,32 @@
         <translation>Eine einfache App um den Überblick über Wäsche zu behalten.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="49"/>
+        <location filename="../qml/pages/AboutPage.qml" line="50"/>
         <source>Why this app?</source>
         <translation>Warum diese App?</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="50"/>
+        <location filename="../qml/pages/AboutPage.qml" line="51"/>
         <source>This app fills a very specific niche.</source>
-        <translation>Diese App erfüllt eine sehr spezifischen Zweck.</translation>
+        <translation>Diese App erfüllt einen sehr spezifischen Zweck.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="51"/>
+        <location filename="../qml/pages/AboutPage.qml" line="52"/>
         <source>If you live in an apartment building that has shared washing machines and a common drying room for everyone, then this app may be for you. If sometimes laundry happens to mysteriously disappear from these places, then this app helps you keep track of questions like “How many items have I washed?” and “How many pieces did I already fetch from the dryer?”.</source>
         <translation>Wenn Sie in einem Mehrfamilienhaus wohnen, in dem die Waschküche und der Trockenraum mit allen geteilt wird, ist diese App für Sie. Wenn es vorkommt, dass Wäsche manchmal auf mysteriöse Weise verschwindet, kann diese App dabei helfen, Fragen wie „Wie viele Sachen habe ich gewaschen?” oder „Was habe ich alles schon aus der Waschküche geholt?” zu beantworten.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="60"/>
+        <location filename="../qml/pages/AboutPage.qml" line="61"/>
         <source>Grocery list</source>
         <translation>Einkaufsliste</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="61"/>
+        <location filename="../qml/pages/AboutPage.qml" line="62"/>
         <source>This app can be used for different purposes.</source>
         <translation>Diese App kann auch anderweitig verwendet werden.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="62"/>
+        <location filename="../qml/pages/AboutPage.qml" line="63"/>
         <source>Apart from its original use-case, this app proved to be quite useful as a grocery list. I am currently planning a new version for shopping with mostly cosmetic changes.</source>
         <translation>Neben dem eigentlich Zweck hat sich die App auch sehr nützlich für Einkaufslisten erwiesen. Ich plane gerade eine neue Version, die besser aufs Einkaufen zugeschnitten ist.</translation>
     </message>
@@ -112,6 +112,14 @@
         <location filename="../qml/cover/CoverPage.qml" line="108"/>
         <source>No laundry today</source>
         <translation>Keine Wäsche heute</translation>
+    </message>
+</context>
+<context>
+    <name>LicenseListPart</name>
+    <message>
+        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="119"/>
+        <source>License text</source>
+        <translation>Lizenztext</translation>
     </message>
 </context>
 <context>
@@ -195,22 +203,22 @@
         <translation>Herunterziehen, um eine neue Wäsche-Ladung hinzuzufügen.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="182"/>
+        <location filename="../qml/pages/MainPage.qml" line="212"/>
         <source>Found!</source>
         <translation>Gefunden!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="182"/>
+        <location filename="../qml/pages/MainPage.qml" line="212"/>
         <source>Missing!</source>
         <translation>Verschwunden!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="189"/>
+        <location filename="../qml/pages/MainPage.qml" line="219"/>
         <source>Rename</source>
         <translation>Umbenennen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="206"/>
+        <location filename="../qml/pages/MainPage.qml" line="236"/>
         <source>Remove</source>
         <translation>Entfernen</translation>
     </message>
@@ -218,7 +226,7 @@
 <context>
     <name>Opal.About</name>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="53"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="55"/>
         <source>About</source>
         <translation>Über</translation>
     </message>
@@ -228,59 +236,60 @@
         <translation>Version %1</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="85"/>
-        <source>Version %1 (%2)</source>
-        <translation>Version %1 (%2)</translation>
-    </message>
-    <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="101"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="100"/>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="22"/>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="31"/>
         <source>Development</source>
         <translation>Entwicklung</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="104"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="103"/>
         <source>show contributors</source>
         <translation>Mitwirkende zeigen</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="106"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="105"/>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="51"/>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="57"/>
-        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="70"/>
+        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="47"/>
         <source>Homepage</source>
         <translation>Webseite</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="109"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="108"/>
+        <location filename="../qml/modules/Opal/About/private/ChangelogPage.qml" line="16"/>
+        <source>Changelog</source>
+        <translation>Änderungsverlauf</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="111"/>
         <source>Translations</source>
         <translation>Übersetzungen</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="112"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="114"/>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="50"/>
         <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="58"/>
-        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="76"/>
+        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="50"/>
         <source>Source Code</source>
         <translation>Quellcode</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="121"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="123"/>
         <source>Donations</source>
         <translation>Spenden</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="127"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="129"/>
         <source>License</source>
         <translation>Lizenz</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="132"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="134"/>
         <source>show license(s)</source>
         <translation>
             <numerusform>Lizenz zeigen</numerusform>
-            <numerusform></numerusform>
+            <numerusform>Lizenzen zeigen</numerusform>
         </translation>
     </message>
     <message>
@@ -330,11 +339,6 @@
         <translation>In die Zwischenablage kopieren</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="181"/>
-        <source>Please refer to &lt;a href=&apos;%1&apos;&gt;%1&lt;/a&gt;</source>
-        <translation>Bitte beachten Sie &lt;a href=&apos;%1&apos;&gt;%1&lt;/a&gt;</translation>
-    </message>
-    <message>
         <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="25"/>
         <source>Download license texts</source>
         <translation>Lizenztexte herunterladen</translation>
@@ -344,13 +348,28 @@
         <source>License(s)</source>
         <translation>
             <numerusform>Lizenz</numerusform>
-            <numerusform></numerusform>
+            <numerusform>Lizenzen</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="41"/>
         <source>Note: please check the source code for most accurate information.</source>
         <translation>Hinweis: Bitte prüfen Sie den Quellcode für alle Einzelheiten.</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="60"/>
+        <source>News</source>
+        <translation>Neuigkeiten</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="61"/>
+        <source>Changes since version %1</source>
+        <translation>Änderungen seit Version %1</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="120"/>
+        <source>Please refer to &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</source>
+        <translation>Bitte beachten Sie &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -374,12 +393,12 @@
 <context>
     <name>harbour-laundry</name>
     <message>
-        <location filename="../qml/harbour-laundry.qml" line="15"/>
+        <location filename="../qml/harbour-laundry.qml" line="16"/>
         <source>Laundry</source>
         <translation>Wäsche</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-laundry.qml" line="17"/>
+        <location filename="../qml/harbour-laundry.qml" line="18"/>
         <source>d M yyyy</source>
         <translation>d. M. yyyy</translation>
     </message>
