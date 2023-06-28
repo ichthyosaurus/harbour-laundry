@@ -4,28 +4,53 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
+/*
+ * Translators:
+ * Please add yourself to the list of contributors below. If your language is already
+ * in the list, add your name to the 'entries' field. If you added a new translation,
+ * create a new section at the top of the list.
+ *
+ * Other contributors:
+ * Please add yourself to the relevant list of contributors.
+ *
+ * <...>
+ *  ContributionGroup {
+ *      title: qsTr("Your language")
+ *      entries: ["Existing contributor", "YOUR NAME HERE"]
+ *  },
+ * <...>
+ *
+ */
+
 import QtQuick 2.0
 import Sailfish.Silica 1.0 as S
-import "../modules/Opal/About" as A
+import Opal.About 1.0 as A
 
 A.AboutPageBase {
-    id: page
-    allowedOrientations: S.Orientation.All
+    id: root
 
-    appName: main.appName
-    appIcon: Qt.resolvedUrl("../images/harbour-laundry.png")
+    appName: appWindow.appName
+    appIcon: Qt.resolvedUrl("../images/%1.png".arg(Qt.application.name))
     appVersion: APP_VERSION
     appRelease: APP_RELEASE
-    description: qsTr("A simple app to keep track of your laundry.")
+
     allowDownloadingLicenses: false
-
-    mainAttributions: ["2023 Mirian Margiani"]
-    sourcesUrl: "https://github.com/ichthyosaurus/harbour-laundry"
+    sourcesUrl: "https://github.com/ichthyosaurus/%1".arg(Qt.application.name)
     homepageUrl: "https://forum.sailfishos.org/t/apps-by-ichthyosaurus/15753"
-    // translationsUrl: "https://github.com/ichthyosaurus/harbour-laundry"  // TODO move to Weblate
-
-    licenses: A.License { spdxId: "GPL-3.0-or-later" }
+    translationsUrl: "https://hosted.weblate.org/projects/%1".arg(Qt.application.name)
     changelogList: Qt.resolvedUrl("../Changelog.qml")
+    licenses: A.License { spdxId: "GPL-3.0-or-later" }
+
+    donations.text: donations.defaultTextCoffee
+    donations.services: [
+        A.DonationService {
+            name: "Liberapay"
+            url: "https://liberapay.com/ichthyosaurus"
+        }
+    ]
+
+    description: qsTr("A simple app to keep track of your laundry.")
+    mainAttributions: ["2023 Mirian Margiani"]
 
     attributions: [
         A.Attribution {
@@ -35,14 +60,6 @@ A.AboutPageBase {
             sources: "https://github.com/oKcerG/SortFilterProxyModel"
         },
         A.OpalAboutAttribution {}
-    ]
-
-    donations.text: donations.defaultTextCoffee
-    donations.services: [
-        A.DonationService {
-            name: "LiberaPay"
-            url: "https://liberapay.com/ichthyosaurus/"
-        }
     ]
 
     extraSections: [
@@ -73,10 +90,6 @@ A.AboutPageBase {
     //         groups: [
     //             A.ContributionGroup {
     //                 title: qsTr("Programming")
-    //                 entries: ["Mirian Margiani"]
-    //             },
-    //             A.ContributionGroup {
-    //                 title: qsTr("Icon Design")
     //                 entries: ["Mirian Margiani"]
     //             }
     //         ]
