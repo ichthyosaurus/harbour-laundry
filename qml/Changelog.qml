@@ -8,6 +8,7 @@ import "modules/Opal/About"
 
 ChangelogList {
     ChangelogItem {
+        version: "1.0.1"
         date: "2023-06-11"
         paragraphs: [
             "This is a bugfix release that fixes some minor GUI problems " +
@@ -16,8 +17,9 @@ ChangelogList {
         ]
     }
     ChangelogItem {
-        author: "ichthyosaurus"
+        version: "1.0.0"
         date: "2023-05-27"
+        author: "ichthyosaurus"
         paragraphs: "Initial public release"
     }
 }
