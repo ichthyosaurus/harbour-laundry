@@ -8,7 +8,7 @@
 # See https://github.com/Pretty-SFOS/opal/blob/main/snippets/opal-merge-translations.md
 # for documentation.
 #
-# @@@ FILE VERSION 0.1.1
+# @@@ FILE VERSION 0.1.2
 #
 
 shopt -s extglob
@@ -23,7 +23,7 @@ if (( $# == 0 )); then
     echo "TRANSLATIONS: path to app translations"
     echo "LCONVERT: path to lconvert tool (optional)"
     echo
-    echo "This script has to be run next to the opal-translations laundry."
+    echo "This script has to be run next to the opal-translations directory."
     exit 0
 fi
 
@@ -47,13 +47,13 @@ fi
 
 cOPAL_TR="opal-translations"
 if [[ ! -d "$cOPAL_TR" ]]; then
-    log "error: $cOPAL_TR laundry not found"
+    log "error: $cOPAL_TR directory not found"
     exit 2
 fi
 
 cBASE_TR="$1"
 if [[ ! -d "$cBASE_TR" ]]; then
-    log "error: translations laundry not found at '$cBASE_TR'"
+    log "error: translations directory not found at '$cBASE_TR'"
     log "       Specify a valid path as the first argument to this script."
     exit 2
 fi
@@ -65,7 +65,7 @@ for tr in "${app_tr[@]}"; do
     have_extra=false
 
     set -o pipefail
-    lang="$(sed -Ee 's/.*?[-_]([a-z]{2}([-_][A-Z]{2})?)\.[Tt][Ss]/\1/g; T fail; t ok; :ok; q 0; :fail; q 100' <<<"$tr" | tr '_' '-')" || {
+    lang="$(sed -re 's/.*?[-_]([a-z]{2}([-_][A-Z]{2})?)\.[Tt][Ss]/\1/g; T fail; t ok; :ok; q 0; :fail; q 100' <<<"$tr" | tr '_' '-')" || {
         log "skipping '$tr': no language"
         continue
     }
