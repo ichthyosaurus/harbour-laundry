@@ -4,37 +4,37 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="19"/>
+        <location filename="../qml/pages/AboutPage.qml" line="52"/>
         <source>A simple app to keep track of your laundry.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="50"/>
+        <location filename="../qml/pages/AboutPage.qml" line="67"/>
         <source>Why this app?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="51"/>
+        <location filename="../qml/pages/AboutPage.qml" line="68"/>
         <source>This app fills a very specific niche.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="52"/>
+        <location filename="../qml/pages/AboutPage.qml" line="69"/>
         <source>If you live in an apartment building that has shared washing machines and a common drying room for everyone, then this app may be for you. If sometimes laundry happens to mysteriously disappear from these places, then this app helps you keep track of questions like “How many items have I washed?” and “How many pieces did I already fetch from the dryer?”.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="61"/>
+        <location filename="../qml/pages/AboutPage.qml" line="78"/>
         <source>Grocery list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="62"/>
+        <location filename="../qml/pages/AboutPage.qml" line="79"/>
         <source>This app can be used for different purposes.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="63"/>
+        <location filename="../qml/pages/AboutPage.qml" line="80"/>
         <source>Apart from its original use-case, this app proved to be quite useful as a grocery list. I am currently planning a new version for shopping with mostly cosmetic changes.</source>
         <translation type="unfinished"></translation>
     </message>
