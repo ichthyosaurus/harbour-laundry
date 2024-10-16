@@ -9,7 +9,9 @@ import Sailfish.Silica 1.0
 import SortFilterProxyModel 0.2
 import io.thp.pyotherside 1.5
 import "pages"
-import "modules/Opal/About" as A
+
+import Opal.About as A
+import Opal.SupportMe 1.0 as M
 
 ApplicationWindow {
     id: main
@@ -39,6 +41,12 @@ ApplicationWindow {
 
     A.ChangelogNews {
         changelogList: Qt.resolvedUrl("Changelog.qml")
+    }
+
+    M.AskForSupport {
+        contents: Component {
+            MySupportDialog {}
+        }
     }
 
     ListModel {
