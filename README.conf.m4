@@ -24,8 +24,7 @@ dnl/// [ABOUT PAGE FILE PATH](required)
 define(${__about_page}, ${qml/pages/AboutPage.qml})
 
 dnl/// [WEBLATE PROJECT](optional): set to __slug for most apps
-dnl/// define(${__weblate_project}, __slug)
-define(${__weblate_project}, ${})dnl/// disable for now: projects must be at least 3 months old for Weblate
+define(${__weblate_project}, __slug)
 
 dnl/// [WEBLATE COMPONENT](required if using Weblate): ignored if Weblate is disabled
 define(${__weblate_component}, ${translations})
