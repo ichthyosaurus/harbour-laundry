@@ -4,39 +4,64 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="52"/>
+        <location filename="../qml/pages/AboutPage.qml" line="45"/>
         <source>A simple app to keep track of your laundry.</source>
         <translation>Eine einfache App um den Überblick über Wäsche zu behalten.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="67"/>
+        <location filename="../qml/pages/AboutPage.qml" line="60"/>
         <source>Why this app?</source>
         <translation>Warum diese App?</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="68"/>
+        <location filename="../qml/pages/AboutPage.qml" line="61"/>
         <source>This app fills a very specific niche.</source>
         <translation>Diese App erfüllt einen sehr spezifischen Zweck.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="69"/>
+        <location filename="../qml/pages/AboutPage.qml" line="62"/>
         <source>If you live in an apartment building that has shared washing machines and a common drying room for everyone, then this app may be for you. If sometimes laundry happens to mysteriously disappear from these places, then this app helps you keep track of questions like “How many items have I washed?” and “How many pieces did I already fetch from the dryer?”.</source>
         <translation>Wenn Sie in einem Mehrfamilienhaus wohnen, in dem die Waschküche und der Trockenraum mit allen geteilt wird, ist diese App für Sie. Wenn es vorkommt, dass Wäsche manchmal auf mysteriöse Weise verschwindet, kann diese App dabei helfen, Fragen wie „Wie viele Sachen habe ich gewaschen?” oder „Was habe ich alles schon aus der Waschküche geholt?” zu beantworten.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="78"/>
+        <location filename="../qml/pages/AboutPage.qml" line="71"/>
         <source>Grocery list</source>
         <translation>Einkaufsliste</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="79"/>
+        <location filename="../qml/pages/AboutPage.qml" line="72"/>
         <source>This app can be used for different purposes.</source>
         <translation>Diese App kann auch anderweitig verwendet werden.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="80"/>
+        <location filename="../qml/pages/AboutPage.qml" line="73"/>
         <source>Apart from its original use-case, this app proved to be quite useful as a grocery list. I am currently planning a new version for shopping with mostly cosmetic changes.</source>
         <translation>Neben dem eigentlich Zweck hat sich die App auch sehr nützlich für Einkaufslisten erwiesen. Ich plane gerade eine neue Version, die besser aufs Einkaufen zugeschnitten ist.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="82"/>
+        <source>Development</source>
+        <translation>Entwicklung</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="85"/>
+        <source>Programming</source>
+        <translation>Programmierung</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="93"/>
+        <source>Translations</source>
+        <translation>Übersetzungen</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="96"/>
+        <source>German</source>
+        <translation>Deutsch</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="102"/>
+        <source>English</source>
+        <translation>Englisch</translation>
     </message>
 </context>
 <context>
@@ -102,6 +127,14 @@
     </message>
 </context>
 <context>
+    <name>AskForSupport</name>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/AskForSupport.qml" line="11"/>
+        <source>Please take a moment to consider if you can contribute to this project in one way or another.</source>
+        <translation>Bitte nimm dir einen Moment Zeit, um zu überlegen, ob du auf die ein oder andere Weise zu diesem Projekt beitragen kannst.</translation>
+    </message>
+</context>
+<context>
     <name>CoverPage</name>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="56"/>
@@ -112,6 +145,19 @@
         <location filename="../qml/cover/CoverPage.qml" line="108"/>
         <source>No laundry today</source>
         <translation>Keine Wäsche heute</translation>
+    </message>
+</context>
+<context>
+    <name>DetailsDrawer</name>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="53"/>
+        <source>show less</source>
+        <translation>weniger zeigen</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="53"/>
+        <source>show more</source>
+        <translation>mehr zeigen</translation>
     </message>
 </context>
 <context>
@@ -224,68 +270,131 @@
     </message>
 </context>
 <context>
+    <name>MySupportDialog</name>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="14"/>
+        <source>Donate on Liberapay</source>
+        <translation>Spende auf Liberapay</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="15"/>
+        <source>Pay the amount of a cup of coffee, a slice of pizza, or a ticket to the theater.</source>
+        <translation>Spende den Betrag für eine Tasse Kaffee, ein Stück Pizza oder einen Theaterbesuch.</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="22"/>
+        <source>Translate on Weblate</source>
+        <translation>Übersetze auf Weblate</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="23"/>
+        <source>Help with translating this app in as many languages as possible.</source>
+        <translation>Hilf dabei, die App in so viele Sprachen wie möglich zu übersetzen.</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="30"/>
+        <source>Develop on Github</source>
+        <translation>Entwickle auf Github</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="31"/>
+        <source>Support with maintenance and packaging, write code, or provide valuable bug reports.</source>
+        <translation>Unterstütze die Verwaltung, das Packaging, beim Programmieren oder schreibe Fehlerberichte.</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="37"/>
+        <source>Why should you care?</source>
+        <translation>Warum betrifft dich das?</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="40"/>
+        <source>This project is built with love and passion by a single developer in their spare time, and is provided to you free of charge.</source>
+        <translation>Dieses Projekt wird mit viel Liebe und Einsatz von einer Einzelperson in ihrer Freizeit entwickelt und dir gratis zur Verfügung gestellt.</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="46"/>
+        <source>I develop Free Software because I am convinced that it is the ethical thing to do - and it is a fun hobby. However, developing software takes a lot of time and effort. As Sailfish and living in general costs money, I need your support to be able to spend time on non-paying projects like this.</source>
+        <translation>Ich entwickle Freie Software aus ethischer Überzeugung - und Freude an diesem Hobby. Trotzdem braucht Softwareentwicklung viel Zeit und Einsatz. Da Sailfish und das Leben allgemein viel Geld kosten, bin ich auf deine Unterstützung angewiesen, um Zeit für unbezahlte Projekte wie dieses aufwenden zu können.</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="56"/>
+        <source>Why donate?</source>
+        <translation>Warum spenden?</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="59"/>
+        <source>Jolla raised prices and is trying to force developers (who work for free) to pay rent for Sailfish.</source>
+        <translation>Jolla plant Preiserhöhungen und versucht Entwickler (die gratis arbeiten) auch noch zu zwingen, Sailfish zu mieten.</translation>
+    </message>
+    <message>
+        <location filename="../qml/MySupportDialog.qml" line="64"/>
+        <source>If you can afford it, donating is the easiest way to ensure that I can continue working on apps for Sailfish. Any amount is appreciated, be it a cup of coffee, a slice of pizza, or more.</source>
+        <translation>Wenn du es dir leisten kannst, ist eine Spende der einfachste Weg, um dazu beizutragen, dass ich auch in Zukunft an Apps für Sailfish arbeiten kann. Jeder Betrag ist ein Beitrag - sei es eine Tasse Kaffee, ein Stück Pizza oder mehr.</translation>
+    </message>
+</context>
+<context>
     <name>Opal.About</name>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="55"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="56"/>
         <source>About</source>
         <translation>Über</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="84"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="85"/>
         <source>Version %1</source>
         <translation>Version %1</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="100"/>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="22"/>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="31"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="101"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="24"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="33"/>
         <source>Development</source>
         <translation>Entwicklung</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="103"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="104"/>
         <source>show contributors</source>
         <translation>Mitwirkende zeigen</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="105"/>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="51"/>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="57"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="106"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="18"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="24"/>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="47"/>
         <source>Homepage</source>
         <translation>Webseite</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="108"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="109"/>
         <location filename="../qml/modules/Opal/About/private/ChangelogPage.qml" line="16"/>
         <source>Changelog</source>
         <translation>Änderungsverlauf</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="111"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="112"/>
         <source>Translations</source>
         <translation>Übersetzungen</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="114"/>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="50"/>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="58"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="115"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="17"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="25"/>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="50"/>
         <source>Source Code</source>
         <translation>Quellcode</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="123"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="124"/>
         <source>Donations</source>
         <translation>Spenden</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="129"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="130"/>
         <source>License</source>
         <translation>Lizenz</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="134"/>
+        <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="135"/>
         <source>show license(s)</source>
         <translation>
             <numerusform>Lizenz zeigen</numerusform>
@@ -298,23 +407,23 @@
         <translation>Details zeigen</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="21"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="23"/>
         <source>Contributors</source>
         <translation>Mitwirkende</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="37"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="39"/>
         <source>Acknowledgements</source>
         <translation>Danksagungen</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="44"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="11"/>
         <source>Thank you!</source>
         <translation>Vielen Dank!</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/ContributorsPage.qml" line="48"/>
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="31"/>
+        <location filename="../qml/modules/Opal/About/private/ContributorsAttributionRepeater.qml" line="15"/>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="34"/>
         <source>Details</source>
         <translation>Details</translation>
     </message>
@@ -339,12 +448,12 @@
         <translation>In die Zwischenablage kopieren</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="25"/>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="28"/>
         <source>Download license texts</source>
         <translation>Lizenztexte herunterladen</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="31"/>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="34"/>
         <source>License(s)</source>
         <translation>
             <numerusform>Lizenz</numerusform>
@@ -352,17 +461,17 @@
         </translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="41"/>
+        <location filename="../qml/modules/Opal/About/private/LicensePage.qml" line="44"/>
         <source>Note: please check the source code for most accurate information.</source>
         <translation>Hinweis: Bitte prüfen Sie den Quellcode für alle Einzelheiten.</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="60"/>
+        <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="61"/>
         <source>News</source>
         <translation>Neuigkeiten</translation>
     </message>
     <message>
-        <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="61"/>
+        <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="62"/>
         <source>Changes since version %1</source>
         <translation>Änderungen seit Version %1</translation>
     </message>
@@ -391,14 +500,70 @@
     </message>
 </context>
 <context>
+    <name>Opal.LinkHandler</name>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/private/LinkHandler/private/ExternalUrlPage.qml" line="15"/>
+        <source>External Link</source>
+        <translation>Externer Link</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/private/LinkHandler/private/ExternalUrlPage.qml" line="32"/>
+        <source>Open in browser</source>
+        <translation>Im Browser öffnen</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/private/LinkHandler/private/ExternalUrlPage.qml" line="32"/>
+        <source>Open externally</source>
+        <translation>Extern öffnen</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/private/LinkHandler/private/ExternalUrlPage.qml" line="36"/>
+        <source>Copied to clipboard: %1</source>
+        <translation>In die Zwischenablage kopiert: %1</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/private/LinkHandler/private/ExternalUrlPage.qml" line="41"/>
+        <source>Copy to clipboard</source>
+        <translation>In die Zwischenablage kopieren</translation>
+    </message>
+</context>
+<context>
+    <name>SupportDialog</name>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="9"/>
+        <source>Hi there!</source>
+        <translation>Hallöchen!</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="10"/>
+        <source>Thank you for using my little app! Maybe you can contribute back?</source>
+        <translation>Danke, dass du meine kleine App verwendest! Vielleicht kannst du auch dazu beitragen?</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="11"/>
+        <source>Thank you for your support!</source>
+        <translation>Vielen Dank für deine Unterstützung!</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="55"/>
+        <source>Remind me later</source>
+        <translation>Erinnere mich später</translation>
+    </message>
+    <message>
+        <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="57"/>
+        <source>Don&apos;t ask me again</source>
+        <translation>Nicht wieder fragen</translation>
+    </message>
+</context>
+<context>
     <name>harbour-laundry</name>
     <message>
-        <location filename="../qml/harbour-laundry.qml" line="16"/>
+        <location filename="../qml/harbour-laundry.qml" line="18"/>
         <source>Laundry</source>
         <translation>Wäsche</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-laundry.qml" line="18"/>
+        <location filename="../qml/harbour-laundry.qml" line="20"/>
         <source>d M yyyy</source>
         <translation>d. M. yyyy</translation>
     </message>
