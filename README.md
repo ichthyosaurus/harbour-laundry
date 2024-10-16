@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2018-2023 Mirian Margiani
+SPDX-FileCopyrightText: 2018-2024 Mirian Margiani
 SPDX-License-Identifier: GFDL-1.3-or-later
 -->
 
@@ -7,6 +7,8 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 
 # Laundry List for Sailfish OS
 
+[![Liberapay donations](https://img.shields.io/liberapay/receives/ichthyosaurus)](https://liberapay.com/ichthyosaurus)
+[![Translations](https://hosted.weblate.org/widgets/harbour-laundry/-/translations/svg-badge.svg)](https://hosted.weblate.org/projects/harbour-laundry/translations/)
 [![Source code license](https://img.shields.io/badge/source_code-GPL--3.0--or--later-yellowdarkgreen)](https://github.com/ichthyosaurus/harbour-laundry/tree/main/LICENSES)
 [![REUSE status](https://api.reuse.software/badge/github.com/ichthyosaurus/harbour-laundry)](https://api.reuse.software/info/github.com/ichthyosaurus/harbour-laundry)
 [![Development status](https://img.shields.io/badge/development-stable-blue)](https://github.com/ichthyosaurus/harbour-laundry)
@@ -46,9 +48,12 @@ if you have any questions or ideas.
 
 It would be wonderful if the app could be translated in as many languages as possible!
 
+Translations are managed using
+[Weblate](https://hosted.weblate.org/projects/harbour-laundry/translations).
+Please prefer this over pull request (which are still welcome, of course).
 If you just found a minor problem, you can also
 [leave a comment in the forum](https://forum.sailfishos.org/t/apps-by-ichthyosaurus/15753)
-or open an issue.
+or [open an issue](https://github.com/ichthyosaurus/harbour-laundry/issues/new).
 
 Please include the following details:
 
@@ -60,9 +65,11 @@ Please include the following details:
 
 ### Manually updating translations
 
+Please prefer using
+[Weblate](https://hosted.weblate.org/projects/harbour-laundry) over this.
 You can follow these steps to manually add or update a translation:
 
-1. *If it did not exists before*, create a new catalog for your language by copying the
+1. *If it did not exist before*, create a new catalog for your language by copying the
    base file [translations/harbour-laundry.ts](translations/harbour-laundry.ts).
    Then add the new translation to [harbour-laundry.pro](harbour-laundry.pro).
 2. Add yourself to the list of contributors in [qml/pages/AboutPage.qml](qml/pages/AboutPage.qml).
@@ -88,7 +95,9 @@ If you contribute, please do not forget to add yourself to the list of
 contributors in [qml/pages/AboutPage.qml](qml/pages/AboutPage.qml)!
 
 
-## Donations and contributions
+
+
+## Donations
 
 If you want to support my work, I am always happy if you buy me a cup of coffee
 through [Liberapay](https://liberapay.com/ichthyosaurus).
@@ -99,7 +108,7 @@ contributing to translations or code! See above how you can contribute 🎕.
 
 ## License
 
-> Copyright (C) 2023  Mirian Margiani
+> Copyright (C) 2023-2024  Mirian Margiani
 
 Laundry List is Free Software released under the terms of the
 [GNU General Public License v3 (or later)](https://spdx.org/licenses/GPL-3.0-or-later.html).
