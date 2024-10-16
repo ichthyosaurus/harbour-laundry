@@ -44,6 +44,7 @@ A.AboutPageBase {
 
     description: qsTr("A simple app to keep track of your laundry.")
     mainAttributions: ["2023 Mirian Margiani"]
+    autoAddOpalAttributions: true
 
     attributions: [
         A.Attribution {
@@ -51,8 +52,7 @@ A.AboutPageBase {
             entries: ["2016 Pierre-Yves Siret"]
             licenses: A.License { spdxId: "MIT" }
             sources: "https://github.com/oKcerG/SortFilterProxyModel"
-        },
-        A.OpalAboutAttribution {}
+        }
     ]
 
     extraSections: [
