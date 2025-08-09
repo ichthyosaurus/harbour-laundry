@@ -153,7 +153,7 @@
     <message>
         <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="53"/>
         <source>show less</source>
-        <translation>сховати</translation>
+        <translation>показати менше</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="53"/>
@@ -252,7 +252,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="191"/>
         <source>Found!</source>
-        <translation>знайдено!</translation>
+        <translation>Знайдено!</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="191"/>
@@ -267,7 +267,7 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="215"/>
         <source>Remove</source>
-        <translation>видалити</translation>
+        <translation>Вилучити</translation>
     </message>
 </context>
 <context>
