@@ -6,37 +6,37 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="45"/>
         <source>A simple app to keep track of your laundry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Çamaşırlarınızı takip etmek için basit bir uygulama.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="60"/>
         <source>Why this app?</source>
-        <translation type="unfinished"></translation>
+        <translation>Neden bu uygulama?</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="61"/>
         <source>This app fills a very specific niche.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu uygulama çok spesifik bir niştedir.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="62"/>
         <source>If you live in an apartment building that has shared washing machines and a common drying room for everyone, then this app may be for you. If sometimes laundry happens to mysteriously disappear from these places, then this app helps you keep track of questions like “How many items have I washed?” and “How many pieces did I already fetch from the dryer?”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ortak çamaşır ve kurutma makineleri olan bir yerde yaşıyorsanız, bu uygulama tam sa sizin için. Özellikle de çamaşırlarınız kendi kendilerine bu makinelerden kayboluyorsa, bu uygulama hangi çamaşırları yıkadığınızı ve makinelerden kaç parça eşya çıkardığınızı takip etmenizde size yardımcı olabilir.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="71"/>
         <source>Grocery list</source>
-        <translation type="unfinished"></translation>
+        <translation>Alışveriş listesi</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="72"/>
         <source>This app can be used for different purposes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu uygulama farklı amaçlarla kullanılabilir.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="73"/>
         <source>Apart from its original use-case, this app proved to be quite useful as a grocery list. I am currently planning a new version for shopping with mostly cosmetic changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Orijinal kullanım amacının dışında, bu uygulama bir alışveriş listesi uygulaması olarak da oldukça kullanışlı. Şu anda alışveriş için çoğunlukla kozmetik değişiklikler içeren yeni bir sürüm planlıyorum.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="82"/>
@@ -69,38 +69,38 @@
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="69"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekle</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="69"/>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeniden adlandır</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="75"/>
         <source>Add a new laundry item:</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeni çamaşır öğesi ekle:</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="75"/>
         <source>Rename a laundry item:</source>
-        <translation type="unfinished"></translation>
+        <translation>Çamaşır öğesini yeniden adlandır:</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="84"/>
         <source>Pants (dark)</source>
-        <translation type="unfinished"></translation>
+        <translation>Pantolon (koyu)</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="85"/>
         <source>Descriptive name</source>
-        <translation type="unfinished"></translation>
+        <translation>Tanımlayıcı isim</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/AddItemDialog.qml" line="159"/>
         <source>... and %n more</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>... ve %n dahası</numerusform>
         </translation>
     </message>
     <message>
@@ -114,7 +114,15 @@
 	instead of:
 		dark pants
 		light pants</source>
-        <translation type="unfinished"></translation>
+        <translation>Not: Çamaşır listesi alfabetik olarak sıralandığından, öğeleri türe göre gruplandırmanız ve ayrıntıları parantez içinde eklemeniz önerilir.
+
+	Örnek:
+		Pantolon (koyu)
+		Pantolon (açık)
+
+	yerine:
+		koyu renk pantolon
+		hafif pantolon</translation>
     </message>
 </context>
 <context>
@@ -122,7 +130,7 @@
     <message>
         <location filename="../qml/modules/Opal/SupportMe/AskForSupport.qml" line="11"/>
         <source>Please take a moment to consider if you can contribute to this project in one way or another.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lütfen bu projeye bir şekilde katkıda bulunup bulunamayacağınızı düşünmek için bir dakikanızı ayırın.</translation>
     </message>
 </context>
 <context>
@@ -130,12 +138,12 @@
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="56"/>
         <source>Laundry</source>
-        <translation type="unfinished"></translation>
+        <translation>Çamaşır</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="108"/>
         <source>No laundry today</source>
-        <translation type="unfinished"></translation>
+        <translation>Bugün çamaşır yok</translation>
     </message>
 </context>
 <context>
@@ -143,12 +151,12 @@
     <message>
         <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="53"/>
         <source>show less</source>
-        <translation type="unfinished"></translation>
+        <translation>daha az göster</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/SupportMe/DetailsDrawer.qml" line="53"/>
         <source>show more</source>
-        <translation type="unfinished"></translation>
+        <translation>daha fazla göster</translation>
     </message>
 </context>
 <context>
@@ -156,7 +164,7 @@
     <message>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="119"/>
         <source>License text</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisans metni</translation>
     </message>
 </context>
 <context>
@@ -164,12 +172,12 @@
     <message>
         <location filename="../qml/components/ListSectionHeader.qml" line="41"/>
         <source>Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Dışarıda</translation>
     </message>
     <message>
         <location filename="../qml/components/ListSectionHeader.qml" line="49"/>
         <source>Fetched</source>
-        <translation type="unfinished"></translation>
+        <translation>Alındı</translation>
     </message>
 </context>
 <context>
@@ -182,82 +190,82 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="39"/>
         <source>Show unused items</source>
-        <translation type="unfinished"></translation>
+        <translation>Kullanılmayan öğeleri göster</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="39"/>
         <source>Hide unused items</source>
-        <translation type="unfinished"></translation>
+        <translation>Kullanılmamış öğeleri gizle</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="44"/>
         <source>New item</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeni öğe</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="56"/>
         <source>New batch</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeni parti</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="77"/>
         <source>Show archived entries</source>
-        <translation type="unfinished"></translation>
+        <translation>Arşivlenmiş girdileri göster</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="77"/>
         <source>Hide archived entries</source>
-        <translation type="unfinished"></translation>
+        <translation>Arşivlenmiş girdileri gizle</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="103"/>
         <source>Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtre</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="130"/>
         <source>No match</source>
-        <translation type="unfinished"></translation>
+        <translation>Eşleşme yok</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="131"/>
         <source>Pull down to add a new item to the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Listeye yeni öğe eklemek için aşağı kaydırın.</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="138"/>
         <source>No laundry</source>
-        <translation type="unfinished"></translation>
+        <translation>Çamaşır yok</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="140"/>
         <source>Pull down to add items.</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeni öğeler eklemek için aşağı kaydırın.</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="141"/>
         <source>Pull down to add a batch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeni parti eklemek için aşağı kaydırın.</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="191"/>
         <source>Found!</source>
-        <translation type="unfinished"></translation>
+        <translation>Bulundu!</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="191"/>
         <source>Missing!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kayıp!</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="198"/>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeniden adlandır</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="215"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Sil</translation>
     </message>
 </context>
 <context>
@@ -265,62 +273,62 @@
     <message>
         <location filename="../qml/MySupportDialog.qml" line="14"/>
         <source>Donate on Liberapay</source>
-        <translation type="unfinished"></translation>
+        <translation>Liberapay üzerinden bağışta bulun</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="15"/>
         <source>Pay the amount of a cup of coffee, a slice of pizza, or a ticket to the theater.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bir fincan kahve, bir dilim pizza ya da bir tiyatro bileti kadar ödeme yapın.</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="22"/>
         <source>Translate on Weblate</source>
-        <translation type="unfinished"></translation>
+        <translation>Weblate üzerinde çevir</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="23"/>
         <source>Help with translating this app in as many languages as possible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu uygulamanın mümkün olduğunca çok dile çevrilmesine yardımcı olun.</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="30"/>
         <source>Develop on Github</source>
-        <translation type="unfinished"></translation>
+        <translation>Github üzerinde geliştirin</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="31"/>
         <source>Support with maintenance and packaging, write code, or provide valuable bug reports.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bakım ve paketleme konusunda destek verin, kod yazın veya değerli hata raporları sağlayın.</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="37"/>
         <source>Why should you care?</source>
-        <translation type="unfinished"></translation>
+        <translation>Neden umursamalısınız?</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="40"/>
         <source>This project is built with love and passion by a single developer in their spare time, and is provided to you free of charge.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu proje, tek bir geliştirici tarafından boş zamanlarında sevgi ve tutkuyla inşa edilmiş ve size ücretsiz olarak sunulmuştur.</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="46"/>
         <source>I develop Free Software because I am convinced that it is the ethical thing to do - and it is a fun hobby. However, developing software takes a lot of time and effort. As Sailfish and living in general costs money, I need your support to be able to spend time on non-paying projects like this.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ücretsiz yazılım geliştiriyorum çünkü bunun yapılması gereken etik bir şey olduğuna inanıyorum - ve eğlenceli bir hobi. Ancak, yazılım geliştirmek çok fazla zaman ve çaba gerektiriyor. Sailfish ve genel olarak yaşamak paraya mal olduğu için, bunun gibi para getirmeyen projelere zaman ayırabilmek için desteğinize ihtiyacım var.</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="56"/>
         <source>Why donate?</source>
-        <translation type="unfinished"></translation>
+        <translation>Neden bağış yapmalısınız?</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="59"/>
         <source>Jolla raised prices and is trying to force developers (who work for free) to pay rent for Sailfish.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jolla fiyatları yükseltti ve geliştiricileri (ücretsiz çalışan) Sailfish için kira ödemeye zorlamaya çalışıyor.</translation>
     </message>
     <message>
         <location filename="../qml/MySupportDialog.qml" line="64"/>
         <source>If you can afford it, donating is the easiest way to ensure that I can continue working on apps for Sailfish. Any amount is appreciated, be it a cup of coffee, a slice of pizza, or more.</source>
-        <translation type="unfinished"></translation>
+        <translation>Eğer gücünüz yetiyorsa, Sailfish için uygulamalar üzerinde çalışmaya devam edebilmemi sağlamanın en kolay yolu bağış yapmaktır. Bir fincan kahve, bir dilim pizza ya da daha fazlası, her türlü miktar takdire şayandır.</translation>
     </message>
 </context>
 <context>
@@ -359,7 +367,7 @@
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="109"/>
         <location filename="../qml/modules/Opal/About/private/ChangelogPage.qml" line="16"/>
         <source>Changelog</source>
-        <translation type="unfinished"></translation>
+        <translation>Değişim günlüğü</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/AboutPageBase.qml" line="112"/>
@@ -457,17 +465,17 @@
     <message>
         <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="61"/>
         <source>News</source>
-        <translation type="unfinished"></translation>
+        <translation>Haberler</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/ChangelogNews.qml" line="62"/>
         <source>Changes since version %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Şu versiyondan beri değişiklikler %1</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/About/private/LicenseListPart.qml" line="120"/>
         <source>Please refer to &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Lütfen &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt; bölümüne bakın</translation>
     </message>
 </context>
 <context>
@@ -503,7 +511,7 @@
     <message>
         <location filename="../qml/modules/Opal/SupportMe/private/LinkHandler/private/ExternalUrlPage.qml" line="32"/>
         <source>Open externally</source>
-        <translation type="unfinished"></translation>
+        <translation>Harici olarak aç</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/SupportMe/private/LinkHandler/private/ExternalUrlPage.qml" line="36"/>
@@ -521,27 +529,27 @@
     <message>
         <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="9"/>
         <source>Hi there!</source>
-        <translation type="unfinished"></translation>
+        <translation>Merhaba!</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="10"/>
         <source>Thank you for using my little app! Maybe you can contribute back?</source>
-        <translation type="unfinished"></translation>
+        <translation>Küçük uygulamamı kullandığınız için teşekkür ederim! Belki siz de katkıda bulunabilirsiniz?</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="11"/>
         <source>Thank you for your support!</source>
-        <translation type="unfinished"></translation>
+        <translation>Desteğiniz için teşekkür ederiz!</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="55"/>
         <source>Remind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>Bana daha sonra hatırlat</translation>
     </message>
     <message>
         <location filename="../qml/modules/Opal/SupportMe/SupportDialog.qml" line="57"/>
         <source>Don&apos;t ask me again</source>
-        <translation type="unfinished"></translation>
+        <translation>Bir daha sorma</translation>
     </message>
 </context>
 <context>
@@ -549,12 +557,12 @@
     <message>
         <location filename="../qml/harbour-laundry.qml" line="18"/>
         <source>Laundry</source>
-        <translation type="unfinished"></translation>
+        <translation>Çamaşır</translation>
     </message>
     <message>
         <location filename="../qml/harbour-laundry.qml" line="20"/>
         <source>d M yyyy</source>
-        <translation type="unfinished"></translation>
+        <translation>d M yyyy</translation>
     </message>
 </context>
 </TS>

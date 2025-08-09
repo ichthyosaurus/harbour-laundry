@@ -6,37 +6,37 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="45"/>
         <source>A simple app to keep track of your laundry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lihtne rakendus pesumasinatäite üle arvepidamiseks.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="60"/>
         <source>Why this app?</source>
-        <translation type="unfinished"></translation>
+        <translation>Miks see rakendus on vajalik?</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="61"/>
         <source>This app fills a very specific niche.</source>
-        <translation type="unfinished"></translation>
+        <translation>See rakendus täidab ühe väga konkreetse nišši.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="62"/>
         <source>If you live in an apartment building that has shared washing machines and a common drying room for everyone, then this app may be for you. If sometimes laundry happens to mysteriously disappear from these places, then this app helps you keep track of questions like “How many items have I washed?” and “How many pieces did I already fetch from the dryer?”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kui sa elad kortermajas, kus on ühiskasutuses pesumasinad ning kõigile ühine kuivastusruum, siis sellest rakendusest võib olla sulle kasu. Vahetevahel pestud pesu kipub arusaamatul viisil neist kohtadest kaduma ja sel puhul see rakendus aitab sul vastata küsimustele „Mitu asja ma pesin?“ ja „Kui palju ma juba tõin kuivatamast ära?“.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="71"/>
         <source>Grocery list</source>
-        <translation type="unfinished"></translation>
+        <translation>Ostunimekiri</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="72"/>
         <source>This app can be used for different purposes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aga seda rakendust saad kasutada ka muudel otstarvetel.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="73"/>
         <source>Apart from its original use-case, this app proved to be quite useful as a grocery list. I am currently planning a new version for shopping with mostly cosmetic changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisaks algsele kasutuseesmärgile, on see rakendus osutunud kasulikuks ka ostunimekirja haldamisel. Järgmiseks plaanin väikeste täiendustega versiooni, mida saad kasutada ka poes käimiseks.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="82"/>
@@ -69,39 +69,39 @@
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="69"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisa</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="69"/>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda nime</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="75"/>
         <source>Add a new laundry item:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lisa uus pesuese:</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="75"/>
         <source>Rename a laundry item:</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda pesueseme nime:</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="84"/>
         <source>Pants (dark)</source>
-        <translation type="unfinished"></translation>
+        <translation>Püksid (tumedad)</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="85"/>
         <source>Descriptive name</source>
-        <translation type="unfinished"></translation>
+        <translation>Kirjeldav nimi</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/AddItemDialog.qml" line="159"/>
         <source>... and %n more</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>... ja veel %n</numerusform>
+            <numerusform>... ja veel %n</numerusform>
         </translation>
     </message>
     <message>
@@ -115,7 +115,15 @@
 	instead of:
 		dark pants
 		light pants</source>
-        <translation type="unfinished"></translation>
+        <translation>Märkus: kuna pesukorras olnud esemed järjestuvad tähestiku alusel, siis on mõistlik, kui sisestad täpsustava teabe sulgudes lõppu.
+
+	Näiteks:
+		püksid (tumedad)
+		püksid (heledad)
+
+	aga mitte:
+		tumedad püksid
+		heledad püksid</translation>
     </message>
 </context>
 <context>
@@ -131,12 +139,12 @@
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="56"/>
         <source>Laundry</source>
-        <translation type="unfinished"></translation>
+        <translation>Pesukord</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="108"/>
         <source>No laundry today</source>
-        <translation type="unfinished"></translation>
+        <translation>Sa pole täna midagi pesnud</translation>
     </message>
 </context>
 <context>
@@ -165,12 +173,12 @@
     <message>
         <location filename="../qml/components/ListSectionHeader.qml" line="41"/>
         <source>Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Väljas</translation>
     </message>
     <message>
         <location filename="../qml/components/ListSectionHeader.qml" line="49"/>
         <source>Fetched</source>
-        <translation type="unfinished"></translation>
+        <translation>Äratoodud</translation>
     </message>
 </context>
 <context>
@@ -183,82 +191,82 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="39"/>
         <source>Show unused items</source>
-        <translation type="unfinished"></translation>
+        <translation>Näita kasutamata kirjeid</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="39"/>
         <source>Hide unused items</source>
-        <translation type="unfinished"></translation>
+        <translation>Peida kasutamata kirjed</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="44"/>
         <source>New item</source>
-        <translation type="unfinished"></translation>
+        <translation>Uus kirje</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="56"/>
         <source>New batch</source>
-        <translation type="unfinished"></translation>
+        <translation>Uus masinatäis</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="77"/>
         <source>Show archived entries</source>
-        <translation type="unfinished"></translation>
+        <translation>Näita arhiveeritud kirjeid</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="77"/>
         <source>Hide archived entries</source>
-        <translation type="unfinished"></translation>
+        <translation>Peida arhiveeritud kirjed</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="103"/>
         <source>Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtreeri</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="130"/>
         <source>No match</source>
-        <translation type="unfinished"></translation>
+        <translation>Vasteid pole</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="131"/>
         <source>Pull down to add a new item to the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Uue kirje loendisse lisamiseks viipa ülalt alla.</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="138"/>
         <source>No laundry</source>
-        <translation type="unfinished"></translation>
+        <translation>Sa pole midagi pesnud</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="140"/>
         <source>Pull down to add items.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kirjete lisamiseks viipa ülalt alla.</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="141"/>
         <source>Pull down to add a batch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pesukorra lisamiseks viipa ülalt alla.</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="191"/>
         <source>Found!</source>
-        <translation type="unfinished"></translation>
+        <translation>Leidsime üles!</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="191"/>
         <source>Missing!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaotsis!</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="198"/>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Muuda nime</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="215"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Eemalda</translation>
     </message>
 </context>
 <context>
@@ -552,12 +560,12 @@
     <message>
         <location filename="../qml/harbour-laundry.qml" line="18"/>
         <source>Laundry</source>
-        <translation type="unfinished"></translation>
+        <translation>Pesukord</translation>
     </message>
     <message>
         <location filename="../qml/harbour-laundry.qml" line="20"/>
         <source>d M yyyy</source>
-        <translation type="unfinished"></translation>
+        <translation>dd.MM.yyyy</translation>
     </message>
 </context>
 </TS>
