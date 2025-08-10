@@ -43,7 +43,7 @@ A.AboutPageBase {
     ]
 
     description: qsTr("A simple app to keep track of your laundry.")
-    mainAttributions: ["2023-%1 Mirian Margiani".arg((new Date()).getFullYear())
+    mainAttributions: ["2023-%1 Mirian Margiani".arg((new Date()).getFullYear())]
     autoAddOpalAttributions: true
 
     attributions: [
