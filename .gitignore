@@ -8,6 +8,3 @@ build*
 .directory
 icon-src/raw
 test
-
-libs/opal-docs
-libs/opal-translations
