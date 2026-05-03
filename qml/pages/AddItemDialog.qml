@@ -6,7 +6,7 @@
 
 import QtQuick 2.2
 import Sailfish.Silica 1.0
-import SortFilterProxyModel 0.2
+import Opal.SortFilterProxyModel 1.0
 
 Dialog {
     id: root

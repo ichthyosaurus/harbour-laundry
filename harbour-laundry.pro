@@ -20,7 +20,7 @@ DEFINES += APP_VERSION=\\\"$$VERSION\\\"
 DEFINES += APP_RELEASE=\\\"$$RELEASE\\\"
 include(libs/opal-cached-defines.pri)
 
-QML_IMPORT_PATH += qml/modules
+include(libs/opal.pri)
 
 SOURCES += src/harbour-laundry.cpp
 
@@ -45,6 +45,3 @@ SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
 # following CONFIG line
 CONFIG += sailfishapp_i18n
 TRANSLATIONS += translations/harbour-laundry-*.ts
-
-# Build submodules
-include(libs/SortFilterProxyModel/SortFilterProxyModel.pri)
