@@ -14,7 +14,7 @@ Version:    1.0.1
 Release:    1
 Group:      Qt/Qt
 License:    GPL-3.0-or-later
-URL:        https://github.com/ichthyosaurus/harbour-laundry
+URL:        https://codeberg.org/ichthyosaurus/harbour-laundry
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-laundry.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
