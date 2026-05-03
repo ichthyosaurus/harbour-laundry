@@ -6,37 +6,37 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="45"/>
         <source>A simple app to keep track of your laundry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Una semplice app per tenere traccia della tua lavanderia.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="60"/>
         <source>Why this app?</source>
-        <translation type="unfinished"></translation>
+        <translation>Perché questa app?</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="61"/>
         <source>This app fills a very specific niche.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa app soddisfa una nicchia molto specifica.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="62"/>
         <source>If you live in an apartment building that has shared washing machines and a common drying room for everyone, then this app may be for you. If sometimes laundry happens to mysteriously disappear from these places, then this app helps you keep track of questions like “How many items have I washed?” and “How many pieces did I already fetch from the dryer?”.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se vivi in un condominio con lavatrici condivise e un locale con le asciugatrici comune per tutti, questa app potrebbe fare al caso tuo. Se a volte capita che il bucato scompaia misteriosamente da questi spazi, questa app ti aiuta a tenere traccia di domande come &quot;Quanti capi ho lavato?&quot; e &quot;Quanti pezzi ho già preso dall&apos;asciugatrice?&quot;.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="71"/>
         <source>Grocery list</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista della spesa</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="72"/>
         <source>This app can be used for different purposes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa app può essere utilizzata per diversi scopi.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="73"/>
         <source>Apart from its original use-case, this app proved to be quite useful as a grocery list. I am currently planning a new version for shopping with mostly cosmetic changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Oltre al suo utilizzo originale, questa app si è rivelata molto utile come lista della spesa. Sto pianificando una nuova versione per lo shopping, con modifiche principalmente estetiche.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="82"/>
@@ -69,39 +69,39 @@
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="69"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="69"/>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Rinomina</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="75"/>
         <source>Add a new laundry item:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi un nuovo capo di biancheria:</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="75"/>
         <source>Rename a laundry item:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rinomina un capo di biancheria:</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="84"/>
         <source>Pants (dark)</source>
-        <translation type="unfinished"></translation>
+        <translation>Pantaloni (scuri)</translation>
     </message>
     <message>
         <location filename="../qml/pages/AddItemDialog.qml" line="85"/>
         <source>Descriptive name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome descrittivo</translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/pages/AddItemDialog.qml" line="159"/>
         <source>... and %n more</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>... e %n altro</numerusform>
+            <numerusform>... e altri %n</numerusform>
         </translation>
     </message>
     <message>
@@ -115,7 +115,15 @@
 	instead of:
 		dark pants
 		light pants</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota: poiché l&apos;elenco dei capi da lavare è ordinato alfabeticamente, si consiglia di raggruppare i capi per tipo e di aggiungere i dettagli tra parentesi.
+
+	Esempio:
+		Pantaloni (scuri)
+		Pantaloni (chiari)
+
+	invece di:
+		pantaloni scuri
+		pantaloni chiari</translation>
     </message>
 </context>
 <context>
@@ -131,12 +139,12 @@
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="56"/>
         <source>Laundry</source>
-        <translation type="unfinished"></translation>
+        <translation>Lavanderia</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="108"/>
         <source>No laundry today</source>
-        <translation type="unfinished"></translation>
+        <translation>Niente bucato oggi</translation>
     </message>
 </context>
 <context>
@@ -165,12 +173,12 @@
     <message>
         <location filename="../qml/components/ListSectionHeader.qml" line="41"/>
         <source>Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Fuori</translation>
     </message>
     <message>
         <location filename="../qml/components/ListSectionHeader.qml" line="49"/>
         <source>Fetched</source>
-        <translation type="unfinished"></translation>
+        <translation>Recuperato</translation>
     </message>
 </context>
 <context>
@@ -183,82 +191,82 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="39"/>
         <source>Show unused items</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra gli articoli non utilizzati</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="39"/>
         <source>Hide unused items</source>
-        <translation type="unfinished"></translation>
+        <translation>Nascondi gli articoli non utilizzati</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="44"/>
         <source>New item</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuovo oggetto</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="56"/>
         <source>New batch</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuovo lotto</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="77"/>
         <source>Show archived entries</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra le voci archiviate</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="77"/>
         <source>Hide archived entries</source>
-        <translation type="unfinished"></translation>
+        <translation>Nascondi le voci archiviate</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="103"/>
         <source>Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtro</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="130"/>
         <source>No match</source>
-        <translation type="unfinished"></translation>
+        <translation>Nessuna corrispondenza</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="131"/>
         <source>Pull down to add a new item to the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Trascina verso il basso per aggiungere un nuovo elemento all&apos;elenco.</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="138"/>
         <source>No laundry</source>
-        <translation type="unfinished"></translation>
+        <translation>Niente bucato</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="140"/>
         <source>Pull down to add items.</source>
-        <translation type="unfinished"></translation>
+        <translation>Trascina verso il basso per aggiungere elementi.</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="141"/>
         <source>Pull down to add a batch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Trascina verso il basso per aggiungere un lotto.</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="191"/>
         <source>Found!</source>
-        <translation type="unfinished"></translation>
+        <translation>Trovato!</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="191"/>
         <source>Missing!</source>
-        <translation type="unfinished"></translation>
+        <translation>Mancante!</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="198"/>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Rinomina</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="215"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Rimuovi</translation>
     </message>
 </context>
 <context>
@@ -547,12 +555,12 @@
     <message>
         <location filename="../qml/harbour-laundry.qml" line="18"/>
         <source>Laundry</source>
-        <translation type="unfinished"></translation>
+        <translation>Lavanderia</translation>
     </message>
     <message>
         <location filename="../qml/harbour-laundry.qml" line="20"/>
         <source>d M yyyy</source>
-        <translation type="unfinished"></translation>
+        <translation>dd MM yyyy</translation>
     </message>
 </context>
 </TS>
