@@ -8,3 +8,4 @@ build*
 .directory
 icon-src/raw
 test
+dist/packages
